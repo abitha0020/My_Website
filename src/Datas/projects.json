@@ -1,27 +1,27 @@
 [
     {
       "id": "1",
-      "name": "Project Alpha",
-      "description": "A brief description of Project Alpha.",
-      "technologies": ["React", "Node.js", "CSS"],
-      "link": "https://example.com/project-alpha",
-      "image": "https://example.com/images/project-alpha.png"
+      "name": "EduQuiz-Companion",
+      "description": "This is a web-based educational quiz platform specifically designed for B.Tech students in Computer Science and Engineering.",
+      "technologies": ["React", "Express,js", "Firebase"],
+      "link": "https://github.com/abitha0020/EduQuiz_Companion",
+      "image": "/mission.jpg"
     },
     {
       "id": "2",
-      "name": "Project Beta",
-      "description": "A brief description of Project Beta.",
-      "technologies": ["Vue.js", "Express", "SASS"],
-      "link": "https://example.com/project-beta",
-      "image": "https://example.com/images/project-beta.png"
+      "name": "Malnutrition-A-Disease-That-no-one-cares-about",
+      "description": "This is a web application designed to provide insights into global malnutrition trends. ",
+      "technologies": ["Html", "CSS", "bootstrap", "IBM Cognos Analytics"],
+      "link": "https://github.com/abitha0020/SBSPS-Challenge-10636-Malnutrition-A-Disease-That-no-one-cares-about",
+      "image": "/malnutrition.jpg"
     },
     {
       "id": "3",
-      "name": "Project Gamma",
-      "description": "A brief description of Project Gamma.",
-      "technologies": ["Angular", "Firebase", "Bootstrap"],
-      "link": "https://example.com/project-gamma",
-      "image": "https://example.com/images/project-gamma.png"
+      "name": "GoldEra: Gateway To The Era OF Secure Gold Transfer",
+      "description": "Proposing a new system for gold exchange in India.",
+      "technologies": ["Html", "CSS", "Bootstrap","Ethereum-blockchain","solidity"],
+      "link": "https://github.com/abitha0020/HackAthena-Techies",
+      "image": "/GoldEra.png"
     }
   ]
   

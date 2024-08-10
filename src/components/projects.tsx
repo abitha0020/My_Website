@@ -11,23 +11,25 @@ import {
   
   export default function Projects() {
     return (
-        <div>
+        <div className="container">
             <Title title="PROJECTS" />
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 ">
                 {projectsData.map((project) => (
-                    <Card key={project.id}>
-                        <CardHeader>
-                            <CardTitle>{project.name}</CardTitle>
-                            <CardDescription>{project.description}</CardDescription>
-                        </CardHeader>
-                        <CardContent>
+                    <Card key={project.id} className="flex flex-col justify-between">
+                        <div>
                             <img
-                                src={project.image}
-                                alt={project.name}
-                                className="w-full h-auto rounded-md"
-                            />
-                            <p className="mt-2">Technologies: {project.technologies.join(', ')}</p>
-                        </CardContent>
+                                    src={project.image}
+                                    alt={project.name}
+                                    className="w-full h-auto rounded-md h-[300px]"
+                                />    
+                            <CardHeader>
+                                <CardTitle>{project.name}</CardTitle>
+                                <CardDescription className="pt-1">{project.description}</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="mt-2">Technologies: {project.technologies.join(', ')}</p>
+                            </CardContent>
+                        </div>
                         <CardFooter>
                             <a
                                 href={project.link}
