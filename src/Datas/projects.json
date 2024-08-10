@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "name": "Project Alpha",
+      "description": "A brief description of Project Alpha.",
+      "technologies": ["React", "Node.js", "CSS"],
+      "link": "https://example.com/project-alpha",
+      "image": "https://example.com/images/project-alpha.png"
+    },
+    {
+      "id": "2",
+      "name": "Project Beta",
+      "description": "A brief description of Project Beta.",
+      "technologies": ["Vue.js", "Express", "SASS"],
+      "link": "https://example.com/project-beta",
+      "image": "https://example.com/images/project-beta.png"
+    },
+    {
+      "id": "3",
+      "name": "Project Gamma",
+      "description": "A brief description of Project Gamma.",
+      "technologies": ["Angular", "Firebase", "Bootstrap"],
+      "link": "https://example.com/project-gamma",
+      "image": "https://example.com/images/project-gamma.png"
+    }
+  ]
+  
