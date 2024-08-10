@@ -4,8 +4,8 @@ function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-gray-800">
-            <div className="container mx-auto flex justify-between h-[100px] px-4 sm:px-6 lg:px-8">
+        <nav className="">
+            <div className="container mx-auto flex justify-between h-[100px] px-4 sm:px-6 lg:px-8 ">
                 <div className="self-center">
                     <h3 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl">Abitha Baby</h3>
                 </div>
