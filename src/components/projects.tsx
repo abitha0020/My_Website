@@ -20,7 +20,7 @@ import {
                             <img
                                     src={project.image}
                                     alt={project.name}
-                                    className="w-full h-auto rounded-md h-[300px]"
+                                    className="w-full rounded-md h-[300px]"
                                 />    
                             <CardHeader>
                                 <CardTitle>{project.name}</CardTitle>
