@@ -1,0 +1,25 @@
+{
+    "experience": [
+      {
+        "id": "1",
+        "title": "Internship at HubSpire Technology Solutions Pvt Limited",
+        "position": "Front-End Developer Intern",
+        "duration": "July 2023 - July 2023",
+        "responsibilities": [
+          "Through this internship, I gained practical experience in modern web and mobile technologies. During the internship, I worked on projects using HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React, and React Native. I developed interactive web applications, mobile apps, and implemented advanced features like state management with Redux and Firebase integration. This experience enhanced my technical skills and provided me with valuable insights into industry-standard practices."
+        ],
+        "company_logo": "/HubSpire.png",
+        "technologies": [
+          "React.js",
+          "Bootstrap",
+          "HTML/CSS",
+          "JavaScript (ES6+)",
+          "Typescript",
+          "Tailwind CSS",
+          "Git & GitHub",
+          "React Native"
+        ]
+      }
+    ]
+  }
+  
