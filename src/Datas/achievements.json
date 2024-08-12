@@ -1,0 +1,19 @@
+{
+    "achievements":[
+        {
+            "title":"Hacks'Us Edition III Federal Bank Track Winners",
+            "description": "Winners of 24 hour hackathon conducted by Rajagiri School of Engineering and Technology on December 15th and 16th of 2023.",
+            "image":"/Hacksus.jpg"
+        },
+        {
+            "title":"HackAthena'48 Winners",
+            "description": "Winners of 48 hour hackathon conducted by Jyothi Engineering College Thrissur, on April 6th ,7th and 8th of 2024.",
+            "image":"/HackAthena.jpg"
+        },
+        {
+            "title":"HackBells 2.0 First Runner Up",
+            "description": "Winners of 48 hour hackathon conducted by Sree Buddha College of Engineering on 16 th February 2024 to 17 th February 2024. ",
+            "image":"/Hackbells.jpg"
+        }
+    ]
+}
