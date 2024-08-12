@@ -19,7 +19,7 @@ export default function AchievementsCarousel() {
       >
         <CarouselContent>
           {achievementData.achievements.map((achievement, index) => (
-            <CarouselItem key={index} className="basis-full sm:basis-1/2 p-2">
+            <CarouselItem key={index} className="basis-full sm:basis-1/2 ">
               <Card className="h-full">
                 <img
                   src={achievement.image}
