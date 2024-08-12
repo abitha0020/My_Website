@@ -2,12 +2,12 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
 import experienceData from '../Datas/internship.json';
 import Title from "./ui/title";
+import TechStack from "./tech";
 export default function Experience(){
     return(
         <div className="container">
@@ -32,6 +32,7 @@ export default function Experience(){
                     </CardContent>
                </Card>
             ))}
+            <TechStack></TechStack>
         </div>
     );
 }

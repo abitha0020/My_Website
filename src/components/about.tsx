@@ -1,4 +1,3 @@
-import { Button } from "./ui/button";
 export default function About(){
     return(
         <div className="h-[600px] flex">
@@ -9,7 +8,6 @@ export default function About(){
                     <p className="text-center">a passionate </p>
                     <p className="py-2 font-bold text-center text-2xl">Web Developer,</p>
                     <p className="text-center">dedicated to crafting innovative solutions and turning ideas into reality.</p> 
-                    <Button className="w-[100px]" >C V</Button>
                 </div>
             </div>
             <div className="w-1/2 flex flex-col justify-center">
