@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+   "build": "set NODE_OPTIONS=--max_old_space_size=4096 && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "rm -rf node_modules && rm -f package-lock.json && npm install"
+    "postinstall": "npm ci"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",

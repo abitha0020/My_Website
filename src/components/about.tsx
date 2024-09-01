@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import profileImage from '/profile.jpg';
 
 const About: React.FC = () => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -122,7 +123,7 @@ const About: React.FC = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <motion.img 
-                        src="src/assets/profile.jpg" 
+                        src={profileImage} 
                         alt="Profile image" 
                         className="w-64 h-64 md:w-80 md:h-80 lg:w-[500px] lg:h-[500px] rounded-full object-cover"
                         initial={{ scale: 0.8 }}
